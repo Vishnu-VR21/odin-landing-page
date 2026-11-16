@@ -1,0 +1,193 @@
+* {
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+    margin: 0;
+}
+
+.header-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 200px;
+    background-color: #1F2937;
+    color: #FFFFFF;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    width: 150px;
+    color: #F9FAF8;
+}
+
+.header-links {
+    display: flex;
+    gap: 20px;
+    width: auto;
+    cursor: pointer;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #FFFFFF;
+    height: 550px;
+    gap: 100px;
+}
+
+.hero-text {
+    width: 400px;
+    color: #F9FAF8;
+}
+
+.main {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.sign-up-btn {
+    margin-top: 20px;
+    background-color: #3882F6;
+    height: 40px;
+    width: 120px;
+    border-radius: 10px;
+    cursor:pointer;
+    border: none;
+    color:#F9FAF8;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.hero-img {
+    width: 500px;
+    height:300px;
+}
+
+.hero-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.info-section {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 400px;
+    margin-bottom: 50px;
+}
+
+.info-text {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.info-cards {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.cards {
+    text-align: center;
+    width: 150px;
+    height: 150px;
+}
+
+.info-card {
+    margin-top: 20px;
+    width:100%;
+    height: 100%;
+    border: 5px solid #3882F6;
+    border-radius: 10px;
+}
+
+.cards p {
+    margin-top: 10px;
+    color:#1F2937
+}
+
+.quote-section {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:400px;
+    background-color: #E5E7EB;
+}
+
+.quote-card {
+    width:900px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 300;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.quote-author {
+    text-align:right;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.action-section {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:300px;
+    padding: 20px;
+}
+
+.action-card {
+    background-color: #3882F6;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 1000px;
+    height:100px;
+    border-radius: 10px;
+}
+
+.action-left .action-main {
+    font-size: 24px;
+    color:#F9FAF8;
+}
+
+.action-left .action-secondary {
+    color:#E5E7EB;
+    font-size: 14px;
+}
+
+.action-right .sign-up-sdy {
+     border: 2px solid #F9FAF8;
+     color:#F9FAF8;
+     font-size: 18px;
+     border-radius: 10px;
+     width: 100px;
+     height:40px;
+     cursor:pointer;
+     background-color: #3882F6;
+}
+
+.footer-section {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:#1F2937;
+    padding: 40px;
+    color:#F9FAF8;
+}
